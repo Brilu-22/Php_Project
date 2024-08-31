@@ -29,7 +29,7 @@
                         <img class="login-bird" src="<?php echo BASE_URL . "/assets/images/s.svg"; ?>" alt="bird">
                         <button class="login-small-display signin-btn pri-btn">Log in</button>
                         <span class="front-para">Anchored in Faith, Guided by Grace. The voice of God.</span>
-                        <span class="join">Pause, Reflect, and Encounter God's Presence?</span>
+                        <span class="join">Pause, Reflect, and Encounter God's Presence.</span>
                         
                         <button type="button" id="auto" onclick="" class="signup-btn pri-btn" data-toggle="modal" data-target="#exampleModalCenter">
                             Sign Up</button>
