@@ -19,14 +19,14 @@ header('location: index.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings | TwitterClone</title>
+    <title>Settings |Selah.</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
 
     <!-- time function to force css file to reload -->
     
     <link rel="stylesheet" href="assets/css/profile_style.css?v=<?php echo time(); ?>">
-    <link rel="shortcut icon" type="image/png" href="assets/images/twitter.svg"> 
+    <link rel="shortcut icon" type="image/png" href="assets/images/s.svg"> 
    
 </head>
 <body>
@@ -38,7 +38,7 @@ header('location: index.php');
         <div class="sidebar-left">
           <div class="grid-sidebar" style="margin-top: 12px">
             <div class="icon-sidebar-align">
-              <img src="<?php echo BASE_URL . "/assets/images/twitter-logo.png"; ?>" alt="" height="30px" width="30px" />
+              <img src="<?php echo BASE_URL . "/assets/images/s.svg"; ?>" alt="" height="80px" width="80px" />
             </div>
           </div>
 
@@ -110,8 +110,8 @@ header('location: index.php');
             </div>
           </div>
           </a>
-          <button class="button-twittear">
-            <strong>Tweet</strong>
+          <button class="button-post">
+            <strong>Post</strong>
           </button>
   
           <div class="box-user">
@@ -157,8 +157,8 @@ header('location: index.php');
           <div class="box-home feed">
                <div class="container">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                  <a style="color:black !important;" class="nav-link active text-center" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Change Email or Username</a>
-                  <a style="color:black !important;" class="nav-link text-center" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Change Password</a>
+                  <a style="color:#4E2D18 !important; background-color:#fff" class="nav-link active text-center" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Change Email or Username</a>
+                  <a style="color:#4E2D18 !important; background-color:#fff" class="nav-link text-center" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Change Password</a>
         
                 </div>
                 <div class="tab-content" id="v-pills-tabContent">
@@ -174,7 +174,7 @@ header('location: index.php');
                         <?php foreach ($_SESSION['errors_account'] as $error) { ?>
 
                             <div  class="alert alert-danger" role="alert">
-                                <p style="font-size: 15px;" class="text-center"> <?php echo $error ; ?> </p>  
+                                <p style="font-size: 15px; color: #8A6340" class="text-center"> <?php echo $error ; ?> </p>  
                             </div> 
                                     <?php }   ?> 
 
@@ -243,7 +243,7 @@ header('location: index.php');
                       
                       <div class="text-center">
 
-                        <button type="submit" name="submit" class="btn btn-primary">Save Changes</button>
+                        <button type="submit" name="submit" class="btn btn-primary" style="background-color:#8A6340">Save Changes</button>
                       </div>
 
                     </form>
@@ -263,7 +263,7 @@ header('location: index.php');
             <div class="input-group py-2 m-auto pr-5 position-relative">
 
             <i id="icon-search" class="fas fa-search tryy"></i>
-            <input type="text" class="form-control search-input"  placeholder="Search Twitter">
+            <input type="text" class="form-control search-input"  placeholder="Search Posts">
             <div class="search-result">
 
         

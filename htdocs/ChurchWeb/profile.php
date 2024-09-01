@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/profile_style.css?v=<?php echo time(); ?>">
   
-    <link rel="shortcut icon" type="image/png" href="assets/images/twitter.svg"> 
+    <link rel="shortcut icon" type="image/png" href="assets/images/s.svg">  
    
 </head>
 <body>
@@ -47,7 +47,7 @@
         <div class="sidebar-left">
           <div class="grid-sidebar" style="margin-top: 12px">
             <div class="icon-sidebar-align">
-              <img src="<?php echo BASE_URL . "/assets/images/twitter-logo.png"; ?>" alt="" height="30px" width="30px" />
+              <img src="<?php echo BASE_URL . "/assets/images/s.svg"; ?>" alt="" height="80px" width="80px" />
             </div>
           </div>
 
@@ -119,8 +119,8 @@
             </div>
           </div>
           </a>
-          <button class="button-twittear">
-            <strong>Tweet</strong>
+          <button class="button-post">
+            <strong>Post</strong>
           </button>
   
           <div class="box-user">
@@ -179,7 +179,7 @@
                  <div class="row mt-5">
                      
                     <div class="col-md-12">
-                      <img class="w-100 home-img-cover" src="assets/images/users/<?php echo $profileData->imgCover; ?>" alt="">
+                      <img class="w-100 home-img-cover" src="" alt="">
                     </div>
 
                  </div>
@@ -313,7 +313,7 @@
                  </div>
                   <div class="home-title">
                     <h4><?php echo $profileData->name; ?></h4>
-                    <p class="user-handle" style="color: gray;">@<?php echo $profileData->username; ?>
+                    <p class="user-handle" style="color: #102821;">@<?php echo $profileData->username; ?>
                     <?php if (Follow::FollowsYou($profileData->id , $user_id)) { ?>
                   <span class="ml-1 follows-you">Follows You</span></p>
                   <?php } ?>
@@ -357,7 +357,7 @@
                      <ul class="nav nav-tabs justify-content-center mt-4" id="myTab" role="tablist">
                        <li class="nav-item">
                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-                           Tweets</a>
+                           Posts</a>
                        </li>
                        <li class="nav-item">
                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
@@ -399,7 +399,7 @@
             <div class="input-group py-2 m-auto pr-5 position-relative">
 
             <i id="icon-search" class="fas fa-search tryy"></i>
-            <input type="text" class="form-control search-input"  placeholder="Search Twitter">
+            <input type="text" class="form-control search-input"  placeholder="Search Posts">
             <div class="search-result">
 
 
