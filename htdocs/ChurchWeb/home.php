@@ -54,7 +54,7 @@
       <div class="">
         <div class="text-center">
          <span  class="modal-title font-weight-bold text-center" id="exampleModalLongTitle">
-          <span style="font-size: 20px;">Welcome <span style="color:#207ce5"><?php echo $user->name; ?></span>  </span>  
+          <span style="font-size: 20px;">Welcome <span style="color:#4c6444"><?php echo $user->name; ?></span>  </span>  
          </span>
         </div>
         <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -67,7 +67,7 @@
         <h4 style="font-weight: 600; " >You've Signed up Successfully!</h4>
  
         </div>
-        <p>Welcome to Selah Encrypted. <span style="font-weight: 700;">Religion Decrypted.</span> The Voice of God.</p>
+        <p>Welcome to Religion Decrypted. <span style="font-weight: 700;">Selah Encrypted.</span> The Voice of God.</p>
         <p>This Community is designed to bring people together through the reigns of religion , we offer a platform to engage with each other by asking questions of religion and Faith.</p>
         <p>The beauty of Faith.
           <a style="color:#4E2D18;" href="codeastro">@selah.encrypted</a> 

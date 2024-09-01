@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/profile_style.css?v=<?php echo time(); ?>">
   
-    <link rel="shortcut icon" type="image/png" href="assets/images/twitter.svg"> 
+    <link rel="shortcut icon" type="image/png" href="assets/images/s.svg"> 
    
 </head>
 <body>
@@ -40,7 +40,7 @@
         <div class="sidebar-left">
           <div class="grid-sidebar" style="margin-top: 12px">
             <div class="icon-sidebar-align">
-              <img src="<?php echo BASE_URL . "/assets/images/twitter-logo.png"; ?>" alt="" height="30px" width="30px" />
+              <img src="<?php echo BASE_URL . "/assets/images/s.svg"; ?>" alt="" height="80px" width="80px" />
             </div>
           </div>
 
@@ -112,7 +112,7 @@
             </div>
           </div>
           </a>
-          <button class="button-twittear">
+          <button class="button-post">
             <strong>Tweet</strong>
           </button>
   
@@ -242,7 +242,7 @@
             <div class="input-group py-2 m-auto pr-5 position-relative">
 
             <i id="icon-search" class="fas fa-search tryy"></i>
-            <input type="text" class="form-control search-input"  placeholder="Search Twitter">
+            <input type="text" class="form-control search-input"  placeholder="Search Posts">
             <div class="search-result">
 
 

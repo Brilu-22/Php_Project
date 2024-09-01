@@ -22,7 +22,7 @@
 		<link rel="shortcut icon" type="image/png" href="assets/images/s.png"> 
 	</head>
 <body>
-<main class="twt-main">
+<main class="twt-main"> 
             <section class="twt-login">
                 <?php include 'includes/login.php';  ?>
                     <div class="slow-login">
@@ -72,7 +72,7 @@
                     <li><a href="#">Brand</a></li>
                      <li><a href="#">Settings</a></li>
                     <li>© 2024 - Selah</li>
-                    <li style="color:#102821;" ><b>-L E B O G A N G . -</b></li>
+                    <li style="color:#102821;" ><b>-L E B O G A N G - H L O N G W A N E. -</b></li>
                 </ul>
             </footer>
         </main>
