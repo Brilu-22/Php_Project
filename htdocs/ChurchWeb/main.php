@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>splash</title>
     <link rel="stylesheet" href="assets/css/main.css" />
+
+    <link rel="shortcut icon" type="image/png" href="assets/images/s.png"> 
   </head>
   <body>
     <div class="loader">
@@ -21,8 +23,9 @@
       </div>
     </div>
 
-    <div class="container">
-      <h1>H<span>i</span></h1>
+    <div class="container" style="background-color:#4E2D18">
+    <img src="assets/images/enc.svg" alt="" style="width: 600px; height: 400px; background-color:#4E2D18; ">
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
