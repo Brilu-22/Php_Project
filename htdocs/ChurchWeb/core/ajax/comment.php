@@ -231,7 +231,7 @@
 <div class="wrap5">
 	<div class="retweet-popup-body-wrap">
 		<div class="retweet-popup-heading">
-			<h3>Reply To Comment</h3>
+			<h3>Reply Tweet</h3>
 			<span><button class="close-retweet-popup"><i class="fa fa-times" aria-hidden="true"></i></button></span>
 		</div>
 		<div class="retweet-popup-input">
