@@ -176,16 +176,16 @@
                          ?>
                      <?php if ($notify->type == 'like') { 
                         $icon = "<i style='color: red;font-size:30px;' class='fa-heart  fas ml-2'></i>";
-                        $msg = "Liked Your Tweet";
+                        $msg = "Liked Your Post";
                         } else if ($notify->type == 'retweet') { 
                             $icon = "<i style='font-size:30px;color: rgb(22, 207, 22);'  class='fas fa-retweet ml-2'></i>";
-                            $msg = "Retweeted Your Tweet";
+                            $msg = "RePosted Your Post";
                         } else if ($notify->type == 'qoute') { 
                             $icon = "<i style='font-size:30px;color: rgb(22, 207, 22);'  class='fas fa-retweet ml-2'></i>";
-                            $msg = "Quoted Your Tweet";
+                            $msg = "Quoted Your Post";
                         } else if ($notify->type == 'comment') { 
                             $icon = "<i style='font-size:30px;' class='far fa-comment ml-2'></i>";
-                            $msg = "Comment to your Tweet";
+                            $msg = "Commented on your Post";
                         } else if ($notify->type == 'reply') { 
                             $icon = "<i style='font-size:30px;' class='far fa-comment ml-2'></i>";
                             $msg = "Reply to your Comment";
@@ -194,7 +194,7 @@
                             $msg = "Followed You";
                         } else if ($notify->type == 'mention') { 
                           $icon = "<i style='font-size:30px;' class='fas fa-user ml-2'></i>";
-                          $msg = "Mention you in Tweet";
+                          $msg = "Mention you in a Post";
                         }?>
                       
                      <div style="position: relative; border-bottom:4px solid #F5F8FA;" class="box-tweet py-3 ">
