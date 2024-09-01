@@ -6,7 +6,7 @@
 
 # About Selah.
 
-Interro is a QnA dashboard created for Open Window students to post questions related to their projects when they get stuck or to just post something they find interesting related to their subjects
+Selah is a religious Q&A website that helps users connect with others of the same belief and being in a community that understands and holds accountability. This website is purposefully designed like a social media platform to give users that sense of comfortablitity and familiarity to help them connect and embrace.
 
 ### Built With
 
@@ -20,7 +20,7 @@ Interro is a QnA dashboard created for Open Window students to post questions re
 [![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
 [![LESS](https://img.shields.io/badge/LESS-1D365D?style=for-the-badge&logo=less&logoColor=white)](https://lesscss.org/)
 
-![Interro Profile Screenshot](<./htdocs/ChurchWeb/assets/images/splash%20(5).png>)
+![Selah Login Screenshot](<./htdocs/ChurchWeb/assets/images/splash%20(5).png>)
 
 ## How To Install
 
@@ -82,19 +82,19 @@ When we had the group meeting and we had a brainstorming session of the type of 
 
 ### Splash Screen (PreLoader)
 
-![Home Page UI Design](<./htdocs/ChurchWeb/assets/images/splash%20(1).png>)
+![Splash Screen Page UI Design](<./htdocs/ChurchWeb/assets/images/splash%20(1).png>)
 
 ### Splash Screen 1
 
-![Post Page UI Design](<./htdocs/ChurchWeb/assets/images/splash%20(2).png>)
+![Splash Screen Page UI Design](<./htdocs/ChurchWeb/assets/images/splash%20(2).png>)
 
 ### Login
 
-![Create a Post UI Design](<./htdocs/ChurchWeb/assets/images/splash%20(5).png>)
+![Login UI Design](<./htdocs/ChurchWeb/assets/images/splash%20(5).png>)
 
 ### Homepage
 
-![Community Page UI Design](<./htdocs/ChurchWeb/assets/images/splash%20(6).png>)
+![HomePage UI Design](<./htdocs/ChurchWeb/assets/images/splash%20(6).png>)
 
 ### Profile Page
 
@@ -134,23 +134,23 @@ When we had the group meeting and we had a brainstorming session of the type of 
 
 ### Profile Mockup
 
-![Interro Mockup 1](<./htdocs/ChurchWeb/assets/images/M1%20(2).jpg>)
+![SelahMockup 1](<./htdocs/ChurchWeb/assets/images/M1%20(2).jpg>)
 
 ### Community Page Mockup
 
-![Interro Mockup 2](<./htdocs/ChurchWeb/assets/images/M1%20(1).jpg>)
+![Selah Mockup 2](<./htdocs/ChurchWeb/assets/images/M1%20(1).jpg>)
 
 ### Individual Post Page Mockup
 
-![Interro Mockup 3](<./htdocs/ChurchWeb/assets/images/M1%20(5).jpg>)
+![Selah Mockup 3](<./htdocs/ChurchWeb/assets/images/M1%20(5).jpg>)
 
 ### Home Page Mockup
 
-![Interro Mockup 4](<./htdocs/ChurchWeb/assets/images/M1%20(3).jpg>)
+![Selah Mockup 4](<./htdocs/ChurchWeb/assets/images/M1%20(3).jpg>)
 
 ### Home Page Mockup
 
-![Interro Mockup 4](<./htdocs/ChurchWeb/assets/images/M1%20(4).jpg>)
+![Selah Mockup 4](<./htdocs/ChurchWeb/assets/images/M1%20(4).jpg>)
 
 ## Demonstration
 
