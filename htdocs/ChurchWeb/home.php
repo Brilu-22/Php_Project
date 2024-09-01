@@ -22,16 +22,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | TwitterClone</title>
+    <title>Home | Selah</title>
     
-    <link rel="shortcut icon" type="image/png" href="assets/images/twitter.svg"> 
+    <link rel="shortcut icon" type="image/png" href="assets/images/s.png">  
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/all.min.css">
         <link rel="stylesheet" href="assets/css/home_style.css?v=<?php echo time(); ?>">
     
    
 </head>
-<body>
+<body >
   <!-- This is a modal for welcome the new signup account! -->
 
   <script src="assets/js/jquery-3.5.1.min.js"></script>
@@ -67,14 +67,11 @@
         <h4 style="font-weight: 600; " >You've Signed up Successfully!</h4>
  
         </div>
-        <p>This is Twitter clone is developed by <span style="font-weight: 700;">Amin Yasser</span>  for learning purpose.</p>
-        <p>The clone project includes tweet , retweet , quote or even quote the quoted tweet , like tweet and nested comments.
-          You can mention or add hashtag to yout tweet , change password or username.
-          Follow or unfollow people. get notificaction if any action happen. Search users by name or username. and more!
-        </p>
-        <p>By default you followed
-          <a style="color:#207ce5;" href="codeastro">@codeastro</a> 
-            to see their tweets.</p>
+        <p>Welcome to Selah Encrypted. <span style="font-weight: 700;">Religion Decrypted.</span> The Voice of God.</p>
+        <p>This Community is designed to bring people together through the reigns of religion , we offer a platform to engage with each other by asking questions of religion and Faith.</p>
+        <p>The beauty of Faith.
+          <a style="color:#4E2D18;" href="codeastro">@selah.encrypted</a> 
+            and of Grace.</p>
       </div>
       
     </div>
@@ -91,7 +88,7 @@
         <div class="sidebar-left">
           <div class="grid-sidebar" style="margin-top: 12px">
             <div class="icon-sidebar-align">
-              <img src="<?php echo BASE_URL . "/assets/images/twitter-logo.png"; ?>" alt="" height="30px" width="30px" />
+              <img src="<?php echo BASE_URL . "/assets/images/s.svg"; ?>" alt="" height="80px" width="80px" />
             </div>
           </div>
 
@@ -163,8 +160,8 @@
             </div>
           </div>
           </a>
-          <button class="button-twittear">
-            <strong>Tweet</strong>
+          <button class="button-post">
+            <strong>Post</strong>
           </button>
   
           <div class="box-user">
@@ -220,7 +217,7 @@
                         
                           <label>
             
-                            <textarea class="text-whathappen" name="status" rows="8" cols="80" placeholder="What's happening?"></textarea>
+                            <textarea class="text-whathappen" name="status" rows="8" cols="80" placeholder="What are your thoughts?"></textarea>
                         
                         </label>
                         </div> 
@@ -269,7 +266,7 @@
                           <div>
                          
                             <span class="bioCount" id="count">140</span>
-                            <input id="tweet-input" type="submit" name="tweet" value="Tweet" class="submit"
+                            <input id="tweet-input" type="submit" name="tweet" value="Post" class="submit"
                             >
                           </div>
                       </div>
@@ -302,7 +299,7 @@
           <div class="input-group py-2 m-auto pr-5 position-relative">
 
           <i class="fa-solid fa-magnifying-glass tryy"></i>
-          <input type="text" class="form-control search-input"  placeholder="Search Twitter">
+          <input type="text" class="form-control search-input"  placeholder="Search Post">
           <div class="search-result">
 
 
