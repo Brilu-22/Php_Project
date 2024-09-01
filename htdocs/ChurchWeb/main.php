@@ -11,8 +11,8 @@
   <body>
     <div class="loader">
       <h1 class="counter">0%</h1>
-      <div class="site-teaser">
-        <span>Use headphones</span>
+      <div class="site-teaser"> 
+        <span>Selah. Encrypted - Religion. Decrypted</span>
       </div>
 
       <div class="circles">
@@ -23,8 +23,8 @@
       </div>
     </div>
 
-    <div class="container" style="background-color:#4E2D18">
-    <img src="assets/images/enc.svg" alt="" style="width: 600px; height: 400px; background-color:#4E2D18; ">
+    <div class="container" style="background-color:#4C6444">
+    <img src="assets/images/s.svg" alt="" style="width: 600px; height: 400px; background-color:#4C6444; ">
 
     </div>
 

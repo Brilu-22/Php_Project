@@ -54,6 +54,13 @@ input[type="radio"] {
   align-items: center;
 }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+}
+
 .cards {
   position: relative;
   width: 100%;
